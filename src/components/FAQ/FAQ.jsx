@@ -3,7 +3,7 @@ const Item = ({ title, children }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border rounded-[12px] border-blue-800 w-3/4">
+    <div className="border rounded-[12px] border-blue-800 md:w-3/4 w-full">
       <button
         type="button"
         aria-label="Open item"

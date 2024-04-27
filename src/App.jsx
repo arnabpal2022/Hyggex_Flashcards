@@ -34,10 +34,10 @@ function App() {
             Others
           </button>
         </ul>
-        <div className="overflow-hidden flex justify-center mt-4">
+        <div className="overflow-hidden md:flex md:justify-center mt-4">
           <CompleteFlashcard />
         </div>
-        <div className="mt-20 flex justify-between items-center">
+        <div className="mt-20 flex md:flex-row flex-col justify-between items-center">
           <div>
             <img src={Logo} alt="HyggeX" className="h-24" />
           </div>

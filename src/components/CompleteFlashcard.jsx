@@ -23,7 +23,7 @@ function CompleteFlashcard() {
 
   return (
     <>
-      <div className="inter font-bold text-3xl pt-6   ">
+      <div className="inter font-bold text-3xl pt-6 ml-6">
         <FlashcardArray
           cards={cards}
           frontCardStyle={{

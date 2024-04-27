@@ -9,10 +9,6 @@
   @include make-flex();
   @include box(560px, auto);
 
-  @include respondAt(625px) {
-    width: 90%;
-  }
-
   &__CardHolder {
     perspective: 1000px;
     @include box(100%, 340px);
